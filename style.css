@@ -37,7 +37,6 @@ nav ul li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     padding: 8px 10px;
-    position: relative;
 }
 
 nav ul li::after {
@@ -52,7 +51,6 @@ nav ul li::after {
 
 }
 
-nav ul li a.active,
 nav ul li:hover::after{
   width: 100%;
 }
