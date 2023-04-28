@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:description" content="This is a sample website" />
-    <title>Simple NavBar</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 <body>
-        <nav>
-          <div class="logo">Coder</div>
-          <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Buy</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </nav>
-
-    
-    
+   <nav>
+    <div class="logo">Coder</div>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Community</a></li>
+      <li><a href="#">Servers</a></li>
+    </ul>
+   </nav>
 </body>
-</html>
+ 
+<section class="content">
+  <div class="title">
+  <span class="text first-text">It's not a bug;</span>
+  <span class="text second-text">it's an undocumented feature</span>
+</div>
+  <div class="sub_title">First solve the problem..</div>
+ </section>
+
+ <footer>
+  <div class="content">
+    <div class="left box">
+      <div class="upper">
+        <div class="topic">About us</div>
+        <p>Becoming Coder is a feeling..</p>
+      </div>
+      <div class="lower">
+        <div class="topic">Contact us</div>
+        <div class="email">
+          <a href="#"><i class="fas fa-envelope"></i>coder@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="middle box">
+      <div class="topic">Services</div>
+      <div><a href="#">Web Design, Development</a></div>
+      <div><a href="#">Web User Interface Design</a></div>
+      <div><a href="#">Theme Design</a></div>
+      <div><a href="#">Mobile Application Design</a></div>
+
+    </div>
+    <div class="right box">
+      <div class="topic">Subscribe us</div>
+      <form action="#">
+        <input type="text" placeholder="Enter email address">
+        <input type="submit" name="" value="Send">
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>Copyright © 2020 <a href="#">CodingLab</a> All rights reserved</p>
+  </div>
+</footer>
+
+ </html>
